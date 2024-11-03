@@ -3,6 +3,10 @@
   padding: 0;         /* Elimina rellenos */
  /* Incluye el padding y el borde en el tamaño total */
 }
+
+body {
+  overflow: hidden; /* Esto ocultará ambas barras de scroll (horizontal y vertical) */
+}
 .dashboard{
   display: flex;
  }

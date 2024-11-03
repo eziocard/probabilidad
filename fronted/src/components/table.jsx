@@ -21,7 +21,7 @@ function Table(){
   return(
   <>
     <div>
-      <div style={{ maxHeight: '100vh', overflowY: 'auto' }}>
+      <div style={{ maxHeight: '90vh', overflowY: 'auto' }}>
         <table className="table">
           <thead className="table-light">
               <tr>

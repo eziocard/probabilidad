@@ -1,0 +1,26 @@
+* {
+  margin: 0;          /* Elimina márgenes */
+  padding: 0;         /* Elimina rellenos */
+ /* Incluye el padding y el borde en el tamaño total */
+}
+.dashboard{
+  display: flex;
+ }
+
+.sidebar{
+  width: 20%;
+  height: 100vh;
+  color: white;
+  background-color: #212529;
+
+}
+.contenedor{
+  width: 100%;
+  text-align: center;
+  color:white;
+
+}
+h1{
+  background-color: red;
+  padding: 10px;
+}

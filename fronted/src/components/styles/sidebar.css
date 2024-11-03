@@ -1,0 +1,43 @@
+* {
+  margin: 0;          /* Elimina márgenes */
+  padding: 0;         /* Elimina rellenos */
+ /* Incluye el padding y el borde en el tamaño total */
+}
+h3{
+  text-align: center;
+  padding-top: 40px;
+}
+
+nav {
+  display: block; /* O display: block; si no quieres usar flexbox */
+  justify-content: center; /* Para centrar el contenido en el contenedor */
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding-left: 0px; 
+  list-style-type: none;
+  font-size: 20px;
+  padding: 0; /* Asegúrate de eliminar el padding */
+  margin: 0; /* Asegúrate de eliminar el margen */
+  display: block; /* Habilita Flexbox */
+  /* Centra los elementos dentro del ul */
+  width: 100%;
+
+ 
+}
+
+li {
+ /* Espaciado entre los elementos de la lista */
+  
+  background-color: #dd211c;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+li a{
+  text-decoration: none;
+  color: white
+}

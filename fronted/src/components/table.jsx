@@ -20,28 +20,29 @@ function Table(){
 
   return(
   <>
+    <div>
+      <div style={{ maxHeight: '100vh', overflowY: 'auto' }}>
+        <table className="table">
+          <thead className="table-light">
+              <tr>
+                  {claves.map((key) => (
+                      <th key={key}>{key}</th>
+                  ))}
+              </tr>
+          </thead>
+          <tbody>
+            {data.map((item, index) => (
+                    <tr key={index}>
+                      {claves.map((key) => (
+                        <td key={key}>{item[key]}</td> // Muestra el valor correspondiente a la clave
+                      ))}
+                    </tr>
+                  ))}   
+          </tbody>
+        </table>
 
-  <div>
-  <table className="table">
-  <thead className="table-light">
-      <tr>
-          {claves.map((key) => (
-              <th key={key}>{key}</th>
-            ))}
-        </tr>
-  </thead>
-  <tbody>
-    {data.map((item, index) => (
-            <tr key={index}>
-              {claves.map((key) => (
-                <td key={key}>{item[key]}</td> // Muestra el valor correspondiente a la clave
-              ))}
-            </tr>
-          ))}   
-  </tbody>
-</table>
-  </div>
-
+      </div>
+    </div>
   </>
   )
 }

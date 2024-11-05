@@ -8,6 +8,14 @@ class Database:
 
 
     def get_database(self):
-       return self.df.where(pd.notnull(self.df), None).to_dict(orient='records') 
+       return self.df.where(pd.notnull(self.df), None).to_dict(orient='records')
+    def get_values_columns(self,name):
+        valores = self.df[name].value_counts()
+        return valores
 
 
+hola = Database()
+name = 'Estatus del cliente'
+print(hola.get_values_columns(name))
+name = 'Categoría Artículo'
+print(hola.get_values_columns(name))

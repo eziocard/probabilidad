@@ -1,14 +1,8 @@
 cual es la probabilidad de que la venta de letreros aumente?
 cuando se concreta una valio la pena en relacion a los otros factores?
 
+existe evidencia que de soporte a una estrategia para convertir a mis clientes de una categoria a otra?
 ¿Cuál es la probabilidad de que un cliente en "Incoming leads" pase a "En Conversación"?
 
-
-Si tengo un total de x clientes en el estado "Incoming leads" y se que históricamente el y% de ellos pasan a "En Conversación",
-puedo calcular la probabilidad de que exactamente un numero tanto de ese total de clientes se conviertan en clientes activos usando la fórmula binomial.
-Este es un análisis  distribución binomial.
-
-n es el número total de intentos (en este caso, el número de clientes en "Incoming leads").
-k es el número de éxitos (clientes que pasan a "En Conversación").
-p es la probabilidad de éxito (la probabilidad de que un cliente pase a "En Conversación").
-1-p es la probabilidad de fracaso (la probabilidad de que no pase a "En Conversación").
+en conversacion -> leads ganados
+en conversacion -> leads perdidos
